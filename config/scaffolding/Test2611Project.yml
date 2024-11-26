@@ -8,7 +8,35 @@ packages:
   gitUsername: rlakshitha0912
   gitBranch: main
 - name: WxPCATargetRuntimeClient
+  version: "1.0"
   gitServerName: rlakshitha0912
   gitUrl: https://github.com/rlakshitha0912
   gitUsername: rlakshitha0912
   gitBranch: main
+services:
+- serviceName: project.test2611.integrations:listPackgeEgde
+  packages:
+  - name: Test2611Project
+    version: "1.0"
+  - name: WxPCATargetRuntimeClient
+    version: "1.0"
+- serviceName: WxPCATargetRuntimeClient.services:executeAction
+  packages:
+  - name: WxPCATargetRuntimeClient
+    version: "1.0"
+- serviceName: wm.server.packages:packageList
+  packages:
+  - name: WmRoot
+    version: 11.1.0.0.2020
+- serviceName: wm.server.ns.dependency:advancedSearch
+  packages:
+  - name: WmRoot
+    version: 11.1.0.0.2020
+- serviceName: wm.server.access:aclList
+  packages:
+  - name: WmRoot
+    version: 11.1.0.0.2020
+- serviceName: pub.flow:getLastError
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2020
