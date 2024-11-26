@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">lara</value>
-    <value name="createdDate">1732611816010</value>
-    <value name="lastModifiedDate">1732611816010</value>
+    <value name="lastModifiedBy">lara</value>
+    <value name="lastModifiedDate">1732611846783</value>
     <value name="displayName">listPackgeEgde</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -67,6 +66,10 @@
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
+        <number name="ui_step_index" type="Long">1</number>
+        <value name="nodePathNew">0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">1</number>
       </record>
     </record>
   </record>
